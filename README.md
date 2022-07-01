@@ -1,0 +1,1 @@
+# diabetes-fast-api-model
