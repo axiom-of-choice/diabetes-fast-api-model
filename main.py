@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jun 12 11:36:48 2022
-
-@author: siddhardhan
+@author: Isaac
 """
 
 from fastapi import FastAPI
