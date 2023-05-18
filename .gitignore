@@ -133,3 +133,5 @@ dmypy.json
 
 #Environmental thrash
 /reqs
+.DS_Store
+.gitignore
