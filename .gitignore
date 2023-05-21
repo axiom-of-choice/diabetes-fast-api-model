@@ -129,7 +129,9 @@ dmypy.json
 .pyre/
 
 #csv files
-*.csv
+#*.csv
 
 #Environmental thrash
 /reqs
+.DS_Store
+.gitignore
