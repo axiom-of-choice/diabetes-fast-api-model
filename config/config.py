@@ -11,6 +11,8 @@ BASE_DIR = Path(__file__).parent.parent.absolute()
 LOGS_DIR = Path(BASE_DIR, "logs")
 LOGS_DIR.mkdir(parents=True, exist_ok=True)
 MODEL_REGISTRY_DIR = Path("experiments")
+DATA_DIR = Path(BASE_DIR, "data")
+CONFIG_DIR = Path(BASE_DIR, "config")
 Path(MODEL_REGISTRY_DIR).mkdir(exist_ok=True)  # create experiments dir
 mlflow.set_tracking_uri("file://" + str(MODEL_REGISTRY_DIR.absolute()))
 
