@@ -1,0 +1,18 @@
+# mkdocs.yml
+site_name: MLOps Example
+repo_url: https://github.com/axiom-of-choice/diabetes-fast-api-model
+nav:
+  - Home: index.md
+  - workflows:
+    - main: diabetes/main.md
+  - diabetes:
+    - data: diabetes/data_preprocessing.md
+    - evaluate: diabetes/evaluate.md
+    - predict: diabetes/predict.md
+    - train: diabetes/train.md
+    - utils: diabetes/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
